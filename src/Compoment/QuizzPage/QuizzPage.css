@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  font-family: "Verdana", cursive, sans-serif;
+  color: #ffffff;
+}
+
+body {
+  background-color: #7cc6fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(./Small-Memory.jpg);
+}
+
+img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.app {
+  background-color: #252d4a;
+  width: 666px;
+  min-height: 200px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+}
+
+.score-section {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reset-quizz {
+  display: flex;
+  justify-content: center;
+}
+
+/* QUESTION/TIMER/LEFT SECTION */
+.question-section {
+  width: 100%;
+  position: relative;
+}
+
+.question-count {
+  margin-bottom: 20px;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.question-text {
+  margin-bottom: 12px;
+}
+
+.timer-text {
+  background: rgb(230, 153, 12);
+  padding: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 5px solid rgb(255, 189, 67);
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* ANSWERS/RIGHT SECTION */
+.answer-section {
+  width: 100%;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #252d4a;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #234668;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: #2f922f;
+}
+
+.incorrect {
+  background-color: #ff3333;
+}
+
+button:hover {
+  background-color: #555e7d;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
+}
+
+/* Spinner */
+@keyframes ldio-gu00kjxduus {
+  0% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0
+  }
+}
+
+.ldio-gu00kjxduus div {
+  left: 94px;
+  top: 53px;
+  position: absolute;
+  animation: ldio-gu00kjxduus linear 1s infinite;
+  background: #1d3f72;
+  width: 12px;
+  height: 14px;
+  border-radius: 6px / 7px;
+  transform-origin: 6px 47px;
+}
+
+.ldio-gu00kjxduus div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -0.9166666666666666s;
+  background: #1d3f72;
+}
+
+.ldio-gu00kjxduus div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -0.8333333333333334s;
+  background: #1d3f72;
+}
+
+.ldio-gu00kjxduus div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.75s;
+  background: #1d3f72;
+}
+
+.ldio-gu00kjxduus div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.6666666666666666s;
+  background: #1d3f72;
+}
+
+.ldio-gu00kjxduus div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.5833333333333334s;
+  background: #1d3f72;
+}
+
+.ldio-gu00kjxduus div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.5s;
+  background: #1d3f72;
+}
+
+.ldio-gu00kjxduus div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.4166666666666667s;
+  background: #1d3f72;
+}
+
+.ldio-gu00kjxduus div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.3333333333333333s;
+  background: #1d3f72;
+}
+
+.ldio-gu00kjxduus div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.25s;
+  background: #1d3f72;
+}
+
+.ldio-gu00kjxduus div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.16666666666666666s;
+  background: #1d3f72;
+}
+
+.ldio-gu00kjxduus div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.08333333333333333s;
+  background: #1d3f72;
+}
+
+.ldio-gu00kjxduus div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+  background: #1d3f72;
+}
+
+.loadingio-spinner-spinner-jqlb40uk5pd {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+
+.ldio-gu00kjxduus {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  /* see note above */
+}
+
+.ldio-gu00kjxduus div {
+  box-sizing: content-box;
+}
